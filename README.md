@@ -4,17 +4,17 @@
 
 ## Demo
 
--
+### https://alrmatveev.github.io/SinglePageShop/
 
 ## Используемые технологии
 
-React
-Redux
-Material-UI
+### React
+
+### Redux
+
+### Material-UI
 
 ## Запустить проект локально
-
-In the project directory, you can run:
 
 ### `npm i`
 
