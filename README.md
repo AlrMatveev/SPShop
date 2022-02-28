@@ -4,7 +4,7 @@
 
 ## Демо
 
-<a href="https://alrmatveev.github.io/SinglePageShop/" target="_blank">https://alrmatveev.github.io/SinglePageShop/</a>
+https://alrmatveev.github.io/SinglePageShop/
 
 ## Используемые технологии
 
