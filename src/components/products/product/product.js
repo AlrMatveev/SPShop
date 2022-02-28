@@ -5,7 +5,7 @@ import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import { increment } from "../../../redux/actions";
 
 function Product({ id, name, price, image, increment }) {
-  const srcImage = "http://localhost:3000/images/" + image;
+  const srcImage = `https://alrmatveev.github.io/SinglePageShop/images/${image}`;
   return (
     <Grid item xs={12} md={6} lg={4}>
       <Box
