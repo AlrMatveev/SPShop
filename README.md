@@ -1,21 +1,23 @@
 # Учебный проект SinglePageShop
 
-Привет! меня зовут Александр, это проект для самостоятельного обучения.
+Привет! меня зовут Александр, это проект для самостоятельного изучения React и его окружения.
 
-## Demo
+## Демо
 
-### https://alrmatveev.github.io/SinglePageShop/
+- https://alrmatveev.github.io/SinglePageShop/
 
 ## Используемые технологии
 
-### React
+- React
+- Redux
+- Material-UI
 
-### Redux
+## План разработки
 
-### Material-UI
+- Убрать вычисления в селекторы
+- Добавить React-router
 
 ## Запустить проект локально
 
-### `npm i`
-
-### `npm start`
+- `npm i`
+- `npm start`
