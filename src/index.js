@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { ConnectedRouter } from "connected-react-router";
 import "./index.css";
 import App from "./components/app";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import history from "./history";
 
 import { products } from "./fixtures";
 
@@ -13,7 +15,9 @@ window.store = store;
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App products={products} />
+      <ConnectedRouter history={history}>
+        <App products={products} />
+      </ConnectedRouter>
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")
