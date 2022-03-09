@@ -11,7 +11,6 @@ function App() {
         <Redirect exact from="/" to="/shop" />
         <Route path="/checkout" component={Basket} />
         <Route path="/shop" component={Shop} />
-        <Route path="/" component={() => <h2>404 - Page Not Found :(</h2>} />
       </Switch>
     </>
   );
