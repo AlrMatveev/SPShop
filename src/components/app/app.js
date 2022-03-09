@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Redirect exact from="/" to="/shop" />
+        <Redirect from="/" to="/shop" />
         <Route path="/checkout" component={Basket} />
         <Route path="/shop" component={Shop} />
       </Switch>
