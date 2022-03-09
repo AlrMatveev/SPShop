@@ -1,21 +1,19 @@
+import { Route, Switch, Redirect } from "react-router-dom";
 import Header from "../header";
-import Products from "../products";
 import Basket from "../basket";
-import Grid from "@mui/material/Grid";
+import Shop from "../shop";
 
-function App({ products }) {
+function App() {
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={12}>
-        <Header />
-      </Grid>
-      <Grid item xs={12} md={8} lg={9}>
-        <Products products={products} />
-      </Grid>
-      <Grid item xs={12} md={4} lg={3}>
-        <Basket products={products} />
-      </Grid>
-    </Grid>
+    <>
+      <Header />
+      <Switch>
+        <Redirect exact from="/" to="/shop" />
+        <Route path="/checkout" component={Basket} />
+        <Route path="/shop" component={Shop} />
+        <Route path="/" component={() => <h2>404 - Page Not Found :(</h2>} />
+      </Switch>
+    </>
   );
 }
 

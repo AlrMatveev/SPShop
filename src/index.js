@@ -8,15 +8,13 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import history from "./history";
 
-import { products } from "./fixtures";
-
 window.store = store;
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <ConnectedRouter history={history}>
-        <App products={products} />
+        <App />
       </ConnectedRouter>
     </Provider>
   </React.StrictMode>,

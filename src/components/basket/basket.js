@@ -50,6 +50,7 @@ function Basket({ products, order }) {
 
 const mapStateToProps = (state) => ({
   order: state.order,
+  products: state.products,
 });
 
 export default connect(mapStateToProps)(Basket);

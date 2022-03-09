@@ -1,23 +1,26 @@
 import "./products.css";
 import Product from "./product";
+import { connect } from "react-redux";
 import { Grid, Container } from "@mui/material";
 
 function Products({ products }) {
   return (
-    <Container maxWidth="md">
-      <Grid container spacing={6}>
-        {products.map((products) => (
-          <Product
-            key={products.id}
-            id={products.id}
-            name={products.name}
-            price={products.price}
-            image={products.image}
-          />
-        ))}
-      </Grid>
-    </Container>
+    <Grid container spacing={6}>
+      {products.map((product) => (
+        <Product
+          key={product.id}
+          id={product.id}
+          name={product.name}
+          price={product.price}
+          image={product.image}
+        />
+      ))}
+    </Grid>
   );
 }
 
-export default Products;
+const mapStateToProps = (state) => ({
+  products: state.products,
+});
+
+export default connect(mapStateToProps)(Products);
