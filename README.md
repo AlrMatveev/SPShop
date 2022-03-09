@@ -4,7 +4,7 @@
 
 ## Демо
 
-- https://alrmatveev.github.io/SinglePageShop/
+https://alrmatveev.github.io/SinglePageShop/
 
 ## Используемые технологии
 
