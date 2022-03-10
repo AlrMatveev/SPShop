@@ -17,6 +17,7 @@ https://alrmatveev.github.io/SinglePageShop/
 
 - Убрать вычисления в селекторы
 - ~~Добавить React-router~~
+- Добивать PropTypes
 
 ## Запустить проект локально
 

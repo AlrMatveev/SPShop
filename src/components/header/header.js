@@ -1,5 +1,6 @@
 import "./header.css";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import {
   Box,
   AppBar,
@@ -17,7 +18,7 @@ function Header({ order }) {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            SPShop
+            <Link to="/SinglePageShop">SPShop</Link>
           </Typography>
           <Badge badgeContent={amount} color="secondary">
             <IconButton color="inherit" aria-label="add to shopping cart">
