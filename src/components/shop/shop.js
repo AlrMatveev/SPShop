@@ -1,6 +1,5 @@
 import "./shop.css";
 import Tabs from "../tabs";
-import Products from "../products";
 import Basket from "../basket";
 import Brand from "../brand";
 import { Switch, Route, Redirect } from "react-router-dom";
