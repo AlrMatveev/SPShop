@@ -15,7 +15,7 @@ function Product({ productId, products, increment }) {
           height: 300,
         }}
       >
-        <img src={srcImage}></img>
+        <img className="imageProduct" src={srcImage}></img>
         <Typography gutterBottom variant="body1" component="div">
           {product.name}
         </Typography>

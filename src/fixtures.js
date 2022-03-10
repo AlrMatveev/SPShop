@@ -35,6 +35,42 @@ export const products = [
     price: "500",
     image: "e22ecfe0d7a66d2338ca983bcd56f894.webp",
   },
+  {
+    id: "d75f762a-eadd-49be-8918-ed0daa8dd025",
+    name: "Jordan Max Aura 3",
+    price: "650",
+    image: "71ea4bdd4103525000202f48ab6a0bd4.webp",
+  },
+  {
+    id: "c3cb8f92-a2ed-4716-92a1-b6ea813e9045",
+    name: "Jordan Why Not Zer0.4",
+    price: "550",
+    image: "383daba1f190dd069510b989225ece2c.webp",
+  },
+  {
+    id: "bd129641-c0eb-432b-84b6-8b81d2930355",
+    name: "Jordan Zoom Separate",
+    price: "560",
+    image: "3138a7b9e51fd79988d54128a6334ecd.webp",
+  },
+  {
+    id: "53b642d7-5e86-4717-a466-0640a1dee075",
+    name: "Jordan Stay Loyal",
+    price: "700",
+    image: "7726e69ef9b9cddeba7e7c59467c7af9.webp",
+  },
+  {
+    id: "abc0c5e1-cd57-4f0a-99d9-00e6b4533b35",
+    name: "Jordan Max Aura 4",
+    price: "625",
+    image: "27784696f1fb902308d1266ef703a4b5.webp",
+  },
+  {
+    id: "4bc8528e-26d1-46c3-a522-8e18d10c8c85",
+    name: "Jordan Air 11 Comfort Low",
+    price: "500",
+    image: "8cd5636ebacad70b2e95bc377ad266dc.webp",
+  },
 ];
 
 export const brands = [
@@ -45,6 +81,9 @@ export const brands = [
       "d75f762a-eadd-49be-8918-ed0daa8dd024",
       "c3cb8f92-a2ed-4716-92a1-b6ea813e9049",
       "bd129641-c0eb-432b-84b6-8b81d2930358",
+      "53b642d7-5e86-4717-a466-0640a1dee076",
+      "abc0c5e1-cd57-4f0a-99d9-00e6b4533b3a",
+      "4bc8528e-26d1-46c3-a522-8e18d10c8c84",
     ],
     reviews: [
       "5909796d-5030-4e36-adec-68b8f9ec2d96",
@@ -53,11 +92,14 @@ export const brands = [
   },
   {
     id: "6c02c2ce-b868-4191-b4a7-8686429f4bac",
-    name: "Nike",
+    name: "Jordan",
     products: [
-      "53b642d7-5e86-4717-a466-0640a1dee076",
-      "abc0c5e1-cd57-4f0a-99d9-00e6b4533b3a",
-      "4bc8528e-26d1-46c3-a522-8e18d10c8c84",
+      "d75f762a-eadd-49be-8918-ed0daa8dd025",
+      "c3cb8f92-a2ed-4716-92a1-b6ea813e9045",
+      "bd129641-c0eb-432b-84b6-8b81d2930355",
+      "53b642d7-5e86-4717-a466-0640a1dee075",
+      "abc0c5e1-cd57-4f0a-99d9-00e6b4533b35",
+      "4bc8528e-26d1-46c3-a522-8e18d10c8c85",
     ],
     reviews: [
       "5909796d-5030-4e36-adec-68b8f9ec2d96",
