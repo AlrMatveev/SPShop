@@ -16,6 +16,7 @@ https://alrmatveev.github.io/SinglePageShop/
 ## План разработки
 
 - Убрать вычисления в селекторы
+- Мемоизация вычеслений
 - Добавить React-router
 - Добивать PropTypes
 - Добивить Тесты
