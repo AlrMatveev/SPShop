@@ -18,7 +18,7 @@ function Header({ order }) {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to="/SinglePageShop">SPShop</Link>
+            <Link to="/SPShop">SPShop</Link>
           </Typography>
           <Badge badgeContent={amount} color="secondary">
             <IconButton color="inherit" aria-label="add to shopping cart">
