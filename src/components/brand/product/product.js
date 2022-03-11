@@ -11,8 +11,8 @@ function Product({ productId, products, increment }) {
     <Grid item xs={12} md={6} lg={4}>
       <Box
         sx={{
-          width: 300,
-          height: 300,
+          width: 350,
+          height: 350,
         }}
       >
         <img className="imageProduct" src={srcImage}></img>

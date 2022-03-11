@@ -28,6 +28,8 @@ function Basket({ products, order }) {
         width: "100%",
         maxWidth: 360,
         bgcolor: "background.paper",
+        borderLeft: "1px solid #eee",
+        paddingLeft: "10px",
       }}
     >
       <Typography variant="h6" component="div">
