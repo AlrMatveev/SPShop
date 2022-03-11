@@ -6,7 +6,7 @@ import { increment } from "../../../redux/actions";
 
 function Product({ productId, products, increment }) {
   const product = products.find((elem) => elem.id == productId);
-  const srcImage = `https://alrmatveev.github.io/SinglePageShop/images/${product.image}`;
+  const srcImage = `https://alrmatveev.github.io/SPShop/images/${product.image}`;
   return (
     <Grid item xs={12} md={6} lg={4}>
       <Box

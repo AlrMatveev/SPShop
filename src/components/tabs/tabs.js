@@ -6,7 +6,7 @@ import { ButtonGroup, Button } from "@mui/material";
 function Tabs({ brands }) {
   const tabs = brands.map(({ id, name }) => ({
     label: name,
-    url: `/SinglePageShop/${id}`,
+    url: `/SPShop/${id}`,
   }));
 
   return (

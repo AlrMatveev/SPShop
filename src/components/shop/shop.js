@@ -12,11 +12,11 @@ function Shop() {
         <Grid item xs={8}>
           <Tabs />
           <Switch>
-            <Route path="/SinglePageShop/:brendId">
+            <Route path="/SPShop/:brendId">
               {({ match }) => <Brand id={match.params.brendId} />}
             </Route>
             <Redirect
-              to={`/SinglePageShop/a757a0e9-03c1-4a2a-b384-8ac21dbe2fb2`}
+              to={`/SPShop/a757a0e9-03c1-4a2a-b384-8ac21dbe2fb2`}
             />
           </Switch>
         </Grid>

@@ -1,10 +1,10 @@
-# Учебный проект SinglePageShop
+# Учебный проект SPShop
 
 Привет! меня зовут Александр, это проект для самостоятельного изучения React и его окружения.
 
 ## Демо
 
-https://alrmatveev.github.io/SinglePageShop/
+https://alrmatveev.github.io/SPShop/
 
 ## Используемые технологии
 

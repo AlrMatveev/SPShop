@@ -8,9 +8,9 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Redirect exact from="/" to="/SinglePageShop" />
+        <Redirect exact from="/" to="/SPShop" />
         <Route path="/checkout" component={Basket} />
-        <Route path="/SinglePageShop/" component={Shop} />
+        <Route path="/SPShop/" component={Shop} />
         <Route path="/" component={() => <h2>404 - Page Not Found :(</h2>} />
       </Switch>
     </>
