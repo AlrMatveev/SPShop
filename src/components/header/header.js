@@ -22,7 +22,9 @@ function Header({ order }) {
           </Typography>
           <Badge badgeContent={amount} color="secondary">
             <IconButton color="inherit" aria-label="add to shopping cart">
-              <ShoppingCartCheckoutIcon />
+              <Link to={"/checkout"}>
+                <ShoppingCartCheckoutIcon />
+              </Link>
             </IconButton>
           </Badge>
         </Toolbar>

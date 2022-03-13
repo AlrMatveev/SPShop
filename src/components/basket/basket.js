@@ -1,7 +1,8 @@
 import "./basket.css";
 import BasketItem from "./basketItem";
 import { connect } from "react-redux";
-import { List, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
+import { Button, List, Typography } from "@mui/material";
 
 function Basket({ products, order }) {
   const objectProducts = products.reduce(
@@ -43,9 +44,20 @@ function Basket({ products, order }) {
           price={product.price}
         />
       ))}
-      <Typography variant="body1" component="div">
-        Total: {total} $
-      </Typography>
+      {total === 0 ? (
+        <Typography variant="body1" component="div">
+          add item to basket
+        </Typography>
+      ) : (
+        <>
+          <Typography sx={{ m: 3 }} variant="body1" component="div">
+            Total: {total} $
+          </Typography>
+          <Button variant="contained">
+            <Link to={"/checkout"}>Checkout</Link>
+          </Button>
+        </>
+      )}
     </List>
   );
 }

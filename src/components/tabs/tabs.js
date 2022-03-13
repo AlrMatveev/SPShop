@@ -10,7 +10,7 @@ function Tabs({ brands }) {
   }));
 
   return (
-    <ButtonGroup variant="text" aria-label="text button group">
+    <ButtonGroup className="tabs" variant="text" aria-label="text button group">
       {tabs.map(({ label, url }) => (
         <Button key={label}>
           <Link to={url}>{label}</Link>
